@@ -1,6 +1,6 @@
 /* Палітра кольорів */
 :root {
-  --white: #ffffff;
+  --secondary-font-color: #ffffff;
   --black: #000;
   --main-font-color: #737373;
   --accent-color: #0a8bfe;
@@ -69,7 +69,7 @@ ul {
   margin-right: auto;
 
   /* Колір логотипу */
-  color: var(--white);
+  color: var(--secondary-font-color);
   font-size: 16px;
 }
 
@@ -86,7 +86,7 @@ ul {
 
 /* Стилі посилань меню навігації */
 .header-link {
-  color: var(--white);
+  color: var(--secondary-font-color);
   font-size: 13px;
   line-height: 2.31;
   /* Розширення клікабельної області елементів меню */
@@ -101,9 +101,9 @@ ul {
   line-height: calc(16 / 13);
 
   /* Колір та рамка */
-  color: var(--white);
+  color: var(--secondary-font-color);
   background-color: transparent;
-  border: 1px solid var(--white);
+  border: 1px solid var(--secondary-font-color);
   border-radius: 4px;
   cursor: pointer;
 
@@ -127,7 +127,7 @@ ul {
   font-weight: 400;
   line-height: calc(50 / 42);
 
-  color: var(--white);
+  color: var(--secondary-font-color);
 }
 
 /* Текст секції-героя */
@@ -138,7 +138,7 @@ ul {
   font-size: 11px;
   line-height: calc(30 / 11);
 
-  color: var(--white);
+  color: var(--secondary-font-color);
 }
 
 /* Кнопка секції-героя */
@@ -152,6 +152,6 @@ ul {
 
   /* Кольори та заокруглення рамки */
   background-color: var(--accent-color);
-  color: var(--white);
+  color: var(--secondary-font-color);
   border-radius: 4px;
 }
